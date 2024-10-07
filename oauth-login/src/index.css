@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+.Toastify__toast {
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+/* Success */
+.Toastify__toast--success {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Error */
+.Toastify__toast--error {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Info */
+.Toastify__toast--info {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* Warning */
+.Toastify__toast--warning {
+    background-color: #ff9800;
+    color: white;
+}
